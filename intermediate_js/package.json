@@ -1,0 +1,15 @@
+{
+  "name": "intermediate_js",
+  "version": "1.0.0",
+  "description": "fixing import",
+  "main": "advance_reduce.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fs"
+  ],
+  "author": "me",
+  "license": "ISC"
+}
