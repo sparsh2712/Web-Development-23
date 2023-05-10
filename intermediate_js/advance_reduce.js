@@ -16,6 +16,7 @@ var output = fs.readFileSync('data.txt', 'utf8')
   })
   return customers
 },{})
+// customer[line[0]] = customer[line[0]] || [] checks if the value of customer[line[0]] is truthy or falsy if truthy then the value is kept as it is ensuring that the value is not over written if this piece of code is not written then only the last item is given as output 
 // dictionary has diffrent key words therfore every time customer[line[0]] = [] is ruyn while looping the keywords reitirate and the last iteration is assigned 
 //.split() is used to split strings ('\n') seperates the string from the point where the line ends 
 // we use trim to remove any space in the start or end of the txt file 
